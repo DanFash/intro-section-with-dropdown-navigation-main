@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&display=swap');
+body{
+    font-family:'Epilogue', sans-serif;
+}
+.snap{ padding: 10px;
+margin-right: 10px;
+}
+.navbar{
+    position: absolute;
+    left: 13%;
+    bottom: 94%;
+}
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.navbar a:hover{opacity: 1;}
+.login{
+    position: absolute;
+    right: 5%;
+    bottom: 93%;
+}
+.login a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#reg{opacity: 0.6;}
+#reg:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.login a:hover{opacity: 1;}
+button{
+    background-color: white;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    border: 2px solid black;
+}
+#learn:hover{
+    background-color: white;
+    transition: 0.7s;
+    color: black;
+}
+img{
+    height: 75%;
+    width: 27%;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+}
+.body{
+    width: 500px;
+    position: absolute;
+    left: 13%;
+    top: 16%;
+    text-align: left;
+}
+h2{
+    font-size: 381%;
+}
+#remote{ margin-top: -60px; }
+p{
+    opacity: 0.6;
+    margin-top: -20px;
+    font-size: 130%;
+}
+#learn{
+    background-color: black;
+    color: white;
+    border-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 95%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+.logos{
+    margin-bottom: 15%;
+}
+.audio{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.meet{
+    margin-right: 40px;
+}
+
